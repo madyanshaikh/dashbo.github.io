@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body style="overflow-X: hidden;">
+    <!-- <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+    
+    <span class="navbar-brand">DASHBOARD</span>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mycollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mycollapse">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">PRODUCTS</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">SUPPORT</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">HELP</a></li>
+    </ul>
+</div>
+</nav> -->
+
+    <div class="container-fluid" id="z-index">
+
+        <div id="cm" class="row" style="height: 100%;">
+
+            <div id="maindiv" class="col-md-1 pl-0">
+
+                <nav id="nav-resize" class="navbar navbar-dark">
+
+                    <ul class="navbar-nav ">
+
+                        <a href="#" class="navbar-brand"><i class="fa fa-users">&nbsp;&nbsp;</i>DASHBOARD</a>
+                        <li class="nav-item text-success"></li>
+                        <li class="nav-item text-secondary pt-4">
+
+                            <img id="img-resize" class="rounded-circle" src="Avatar/Avatar.png" alt="Avatar">
+                            &nbsp; Welcome,
+                        </li>
+                        <span id="font-resize">shaikh Madyan</span>
+
+
+                        <li class="nav-item text-warning small pt-3 pl-2"
+                            style="font-weight: 500; letter-spacing: 1px;">GENERAL</li>
+
+
+
+                        </li>
+                        <!-- --------------------Home ------------- toggle1-------------------starts--------------- -->
+                        <li class="nav-link mt-3"><i class="fas fa-home"></i>&nbsp;&nbsp; <span
+                                id="fonts-size">Home</span></li>
+
+
+                        <button type="button" id="btn-toggle1" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#dashboardmenu"><i class="fa fa-angle-down"></i></button>
+
+
+                        <div class="collapse" id="dashboardmenu">
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d1</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d2</a></li>
+                        </div>
+                        <!-- --------------------Home ------------- toggle-------------------Ends--------------- -->
+
+
+
+                        <!-- --------------------Home ------------- toggle2---------------------------------- -->
+
+                        <li class="nav-link"><i class="fa fa-file"></i>&nbsp;&nbsp;&nbsp;<span id="fonts-size">
+                                Forms</span></li>
+
+
+                        <button type="button" id="btn-toggle2" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#dashboardmenu1">
+                            <i class="fa fa-angle-down"></i></button>
+
+                        <div class=" collapse" id="dashboardmenu1">
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d1</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d2</a></li>
+                        </div>
+                        <!-- --------------------Home ------------- toggle2-------------------Ends--------------- -->
+
+
+
+
+                        <!-- --------------------Home ------------- toggle3---------------------------------- -->
+                        <li class="nav-link"><i class="fa fa-desktop"> &nbsp;&nbsp;</i><span id="fonts-size">UI
+                                Elements</span></li>
+                        <button type="button" id="btn-toggle3" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#dashboardmenu2">
+                            <i class="fa fa-angle-down"></i></button>
+                        <div class="collapse" id="dashboardmenu2">
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d1</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d2</a></li>
+                        </div>
+                        <!-- --------------------Home ------------- toggle3-------------------Ends--------------- -->
+
+
+                        <!-- --------------------Home ------------- toggle4---------------------------------- -->
+                        <li id="border-top" class="nav-link"><i class="fa fa-table"></i>&nbsp;&nbsp; <span
+                                id="fonts-size">Tables</span>
+                        </li>
+                        <button type="button" id="btn-toggle4" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#dashboardmenu3"><i class="fa fa-angle-down"></i></button>
+
+                        <div class="collapse" id="dashboardmenu3">
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d1</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d2</a></li>
+                        </div>
+                        <!-- --------------------Home ------------- toggle4-------------------Ends--------------- -->
+
+                        <!-- --------------------Home ------------- toggle5---------------------------------- -->
+                        <li class="nav-link"><i class="fas fa-chart-bar"></i> &nbsp;&nbsp;<span id="fonts-size">Data
+                                Presentation</span></li>
+                        <button type="button" id="btn-toggle5" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#dashboardmenu4"><i class="fa fa-angle-down"></i></button>
+                        <div class="collapse" id="dashboardmenu4">
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d1</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d2</a></li>
+                        </div>
+
+                        <!-- --------------------Home ------------- toggle5-------------------Ends--------------- -->
+
+                        <!-- --------------------Home ------------- toggle6---------------------------------- -->
+
+                        <li class="nav-link"><i class="far fa-clone"></i>&nbsp;&nbsp; <span
+                                id="fonts-size">Layout</span></li>
+
+                        <button id="btn-toggle6" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#dashboardmenu5"><i class="fa fa-angle-down"></i></button>
+                        <div class="collapse" id="dashboardmenu5">
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d1</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d2</a></li>
+                        </div>
+
+                        <!-- --------------------Home ------------- toggle6-------------------Ends--------------- -->
+
+                        <!-- --------------------====================================================================---------------------------------      -->
+
+                        <!-- --------------------Home ------------- toggle7-------------------starts--------------- -->
+
+                        <li class="nav-item text-warning small pt-3 pl-2"
+                            style="font-weight: 500; letter-spacing: 1px;">LIVE ON</li>
+
+
+                        <li class="nav-link mt-3"><i class="fas fa-book-open"></i>&nbsp;&nbsp; <span
+                                id="fonts-size">Additional Pages</span></li>
+
+                        <button type="button" id="btn-toggle7" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#dashboardmenu6"><i class="fa fa-angle-down"></i></button>
+
+
+                        <div class="collapse" id="dashboardmenu6">
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d1</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d2</a></li>
+                        </div>
+                        <!-- --------------------Home ------------- toggle7-------------------Ends--------------- -->
+
+
+
+                        <!-- --------------------Home ------------- toggle8---------------------------------- -->
+
+                        <li class="nav-link"><i class="fas fa-box"></i>&nbsp;&nbsp;&nbsp;<span id="fonts-size">
+                                Extras</span></li>
+
+
+                        <button type="button" id="btn-toggle8" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#dashboardmenu7">
+                            <i class="fa fa-angle-down"></i></button>
+
+                        <div class=" collapse" id="dashboardmenu7">
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d1</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d2</a></li>
+                        </div>
+                        <!-- --------------------Home ------------- toggle8-------------------Ends--------------- -->
+
+
+
+
+                        <!-- --------------------Home ------------- toggle9---------------------------------- -->
+                        <li class="nav-link"><i class="fas fa-fax"> &nbsp;&nbsp;</i><span id="fonts-size">Multilevel
+                                Menu</span></li>
+                        <button type="button" id="btn-toggle9" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#dashboardmenu8">
+                            <i class="fa fa-angle-down"></i></button>
+                        <div class="collapse" id="dashboardmenu8">
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d1</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link small">Dashboard d2</a></li>
+                        </div>
+                        <!-- --------------------Home ------------- toggle9-------------------Ends--------------- -->
+
+                        <li class="nav-link"><i class="fa fa-desktop"> &nbsp;&nbsp;</i><span id="fonts-size">Landing
+                                Page &nbsp;&nbsp;&nbsp;<span id="font1-size"> Coming soon</span></span></li>
+                    </ul>
+                    <div id="postion" class="row">
+                        <div class="col-sm-12" style="height: 186px;">
+
+                        </div>
+                        <div
+                            style="transform: translateY(0.50em); width:100%; height: 50px; padding: 15px 20px; background-color: rgb(51, 54, 54); display: flex;">
+                            <div class="col-sm-3">
+
+                                <a href="#" type="" class="nav-item" style="color: goldenrod;"><i
+                                        class="fas fa-cogs"></i></a>
+
+                            </div>
+                            <div class="col-sm-3">
+                                <a href="#" class="nav-item" style="color: goldenrod;"><i
+                                        class="fas fa-expand-arrows-alt"></i></a>
+                            </div>
+                            <div class="col-sm-3">
+                                <a href="#" class="nav-item" style="color: goldenrod;"><i
+                                        class="fas fa-eye-slash"></i></a>
+                            </div>
+                            <div class="col-sm-3">
+                                <a href="#" class="nav-item" style="color: goldenrod;"><i
+                                        class="fas fa-power-off"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+            </div>
+
+
+        </div>
+        <div class="row" id="navbar-size">
+
+
+            <div class="col-sm-11" id="div2ndmain">
+
+
+                <nav class="navbar" id="nav-2nd">
+                    <div class="col-sm-1">
+                        <li class="nav-link" id="bars"><i class="fa fa-bars"
+                                style="font-size: 30px; color: darkgray;"></i></li>
+                    </div>
+
+                    <li class="nav-link" id="floatright" style="color: rgb(202, 202, 202);">
+
+                        <img id="img-resize" class="rounded-circle" src="Avatar/Avatar.png" alt="Avatar">
+                        &nbsp; shaikh Madyan&nbsp;&nbsp;<i class="fa fa-angle-down"></i>
+                    </li>
+                </nav>
+            </div>
+        </div>
+
+        <div class="navbar navbar-expand-md" id="row3rd">
+            <div class="navbar-collapse">
+
+                <div class="col-sm-2 pl-0" id="work1">
+                    <li class="nav-link text-secondary small"><i class="fa fa-user"></i> Total Users</li>
+                    <span class="text-secondary" id="number-heading">2500</span>
+                    <span class="text-secondary small" id="percentage">4% <span style="font-weight: 400;">From Last
+                            Week</span></span>
+
+                </div>
+                <div class="col-sm-2 ml-0 pl-0" style="border-left: 2px solid;" id="work1">
+                    <li class="nav-link text-secondary small"><i class="fa fa-time"></i> Average Time</li>
+                    <span class="text-secondary" id="number-heading">2500</span>
+                    <span class="text-secondary small" id="percentage">4% <span style="font-weight: 400;">From Last
+                            Week</span></span>
+
+                </div>
+                <div class="col-sm-2 ml-0 pl-0" style="border-left: 2px solid;" id="work1">
+                    <li class="nav-link text-secondary small"><i class="fa fa-user"></i> Total Males</li>
+                    <span class="text-secondary" id="number-heading">2500</span>
+                    <span class="text-secondary small" id="percentage">4% <span style="font-weight: 400;">From Last
+                            Week</span></span>
+
+                </div>
+                <div class="col-sm-2 ml-0 pl-0" style="border-left: 2px solid;" id="work1">
+                    <li class="nav-link text-secondary small"><i class="fa fa-user"></i> Total Females</li>
+                    <span class="text-secondary" id="number-heading">2500</span>
+                    <span class="text-secondary small" id="percentage">4% <span style="font-weight: 400;">From Last
+                            Week</span></span>
+
+                </div>
+                <div class="col-sm-2 ml-0 pl-0" style="border-left: 2px solid;" id="work1">
+                    <li class="nav-link text-secondary small"><i class="fa fa-user"></i> Total Collections</li>
+                    <span class="text-secondary" id="number-heading">2500</span>
+                    <span class="text-secondary small" id="percentage">4% <span style="font-weight: 400;">From Last
+                            Week</span></span>
+
+                </div>
+                <div class="col-sm-2 ml-0 pl-0" style="border-left: 2px solid;" id="work1">
+                    <li class="nav-link text-secondary small"><i class="fa fa-user"></i> Total Connections</li>
+                    <span class="text-secondary" id="number-heading">2500</span>
+                    <span class="text-secondary small" id="percentage">4% <span style="font-weight: 400;">From Last
+                            Week</span></span>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="jquery/jquery-3.5.1.min.js"></script>
+    <!-- <script src="js/bootstrap.min.
+        js"></script> -->
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
